@@ -592,7 +592,7 @@ body {
 }
 
 .footer-logo-image {
-  max-width: 80px;
+  max-width: 100px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
@@ -742,7 +742,7 @@ body {
   }
 
   .footer-logo-image {
-    max-width: 70px;
+    max-width: 90px;
   }
 
   .floating-btn {
@@ -823,7 +823,7 @@ body {
   }
 
   .footer-logo-image {
-    max-width: 85px;
+    max-width: 110px;
   }
 
   .header h1 {
@@ -911,7 +911,7 @@ body {
   }
 
   .footer-logo-image {
-    max-width: 95px;
+    max-width: 120px;
   }
 
   .header h1 {
