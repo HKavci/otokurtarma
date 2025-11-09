@@ -98,6 +98,14 @@ body {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.header-title-mobile {
+  display: inline;
+}
+
+.header-title-desktop {
+  display: none;
+}
+
 .header p {
   margin-top: 0.3rem;
   font-size: 0.95rem;
@@ -820,6 +828,14 @@ body {
 
   .header h1 {
     font-size: 2rem;
+  }
+
+  .header-title-mobile {
+    display: none;
+  }
+
+  .header-title-desktop {
+    display: inline;
   }
 
   .header p {
