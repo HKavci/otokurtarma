@@ -664,60 +664,7 @@
       </div>
     </footer>
 
-    <!-- Sabit WhatsApp ve Arama Butonları -->
-    <a
-      href="https://wa.me/905445665501?text=Acil%20oto%20kurtarma%20hizmeti%20gerekiyor!"
-      target="_blank"
-      class="floating-btn whatsapp-floating"
-      title="WhatsApp ile Yaz"
-      >💬</a
-    >
-    <a
-      href="tel:05445665501"
-      class="floating-btn call-floating"
-      title="Hemen Ara"
-      >📞</a
-    >
-
-    <!-- Carousel JavaScript -->
-    <script>
-      let currentSlideIndex = 1;
-      showSlide(currentSlideIndex);
-
-      // Auto-play carousel
-      setInterval(() => {
-        moveCarousel(1);
-      }, 5000);
-
-      function moveCarousel(n) {
-        showSlide((currentSlideIndex += n));
-      }
-
-      function currentSlide(n) {
-        showSlide((currentSlideIndex = n));
-      }
-
-      function showSlide(n) {
-        let slides = document.getElementsByClassName("carousel-slide");
-        let dots = document.getElementsByClassName("dot");
-
-        if (n > slides.length) {
-          currentSlideIndex = 1;
-        }
-        if (n < 1) {
-          currentSlideIndex = slides.length;
-        }
-
-        for (let i = 0; i < slides.length; i++) {
-          slides[i].classList.remove("active");
-        }
-        for (let i = 0; i < dots.length; i++) {
-          dots[i].classList.remove("active");
-        }
-
-        slides[currentSlideIndex - 1].classList.add("active");
-        dots[currentSlideIndex - 1].classList.add("active");
-      }
-    </script>
+    <!-- External JavaScript -->
+    <script src="index.js"></script>
   </body>
 </html>
