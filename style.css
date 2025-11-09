@@ -37,7 +37,7 @@ body {
   background-attachment: fixed;
   color: #fff;
   text-align: center;
-  padding: 1.5rem 1rem;
+  padding: 1rem 1rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: relative;
 }
@@ -94,7 +94,7 @@ body {
 
 .header h1 {
   font-size: 1.6rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -107,8 +107,8 @@ body {
 }
 
 .header p {
-  margin-top: 0.3rem;
-  font-size: 0.95rem;
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
   opacity: 0.95;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -792,7 +792,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.2rem;
   }
 
   .header-logo {
@@ -819,7 +819,7 @@ body {
   }
 
   .logo-image {
-    max-width: 100px;
+    max-width: 75px;
   }
 
   .footer-logo-image {
@@ -827,7 +827,8 @@ body {
   }
 
   .header h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.2rem;
   }
 
   .header-title-mobile {
@@ -839,7 +840,8 @@ body {
   }
 
   .header p {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    margin-top: 0;
   }
 
   .hero-title-mobile {
@@ -897,7 +899,7 @@ body {
   }
 
   .header .container {
-    gap: 2rem;
+    gap: 1.5rem;
   }
 
   .footer .container {
@@ -905,11 +907,19 @@ body {
   }
 
   .logo-image {
-    max-width: 110px;
+    max-width: 85px;
   }
 
   .footer-logo-image {
     max-width: 95px;
+  }
+
+  .header h1 {
+    font-size: 1.9rem;
+  }
+
+  .header p {
+    font-size: 1.05rem;
   }
 
   .hero-title-desktop {
