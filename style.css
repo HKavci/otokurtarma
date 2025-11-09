@@ -6,6 +6,10 @@
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #fff;
   color: #222;
@@ -125,6 +129,10 @@ body {
   flex: 1;
   text-align: center;
   min-width: 60px;
+}
+
+.nav-desktop-only {
+  display: none;
 }
 
 .navbar a:hover,
@@ -868,6 +876,10 @@ body {
 
 /* Desktop Responsive */
 @media (min-width: 1024px) {
+  .nav-desktop-only {
+    display: block;
+  }
+
   .header .container {
     gap: 2rem;
   }
