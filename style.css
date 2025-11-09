@@ -288,12 +288,22 @@ body {
   z-index: 2;
 }
 
-.hero h2 {
-  font-size: 1.4rem;
+.hero h2,
+.hero h3 {
   color: #111;
   margin-bottom: 1rem;
   line-height: 1.3;
   text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
+}
+
+.hero-title-mobile {
+  display: block;
+  font-size: 1.2rem;
+}
+
+.hero-title-desktop {
+  display: none;
+  font-size: 1.8rem;
 }
 
 .hero p {
@@ -808,7 +818,12 @@ body {
     font-size: 1.1rem;
   }
 
-  .hero h2 {
+  .hero-title-mobile {
+    display: none;
+  }
+
+  .hero-title-desktop {
+    display: block;
     font-size: 1.8rem;
   }
 
@@ -869,7 +884,7 @@ body {
     max-width: 95px;
   }
 
-  .hero h2 {
+  .hero-title-desktop {
     font-size: 2.2rem;
   }
 
