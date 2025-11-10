@@ -36,3 +36,32 @@ function showSlide(n) {
   slides[currentSlideIndex - 1].classList.add("active");
   dots[currentSlideIndex - 1].classList.add("active");
 }
+
+// Touch/Swipe functionality for mobile
+let touchStartX = 0;
+let touchEndX = 0;
+
+const carouselWrapper = document.querySelector('.carousel-wrapper');
+
+carouselWrapper.addEventListener('touchstart', (e) => {
+  touchStartX = e.changedTouches[0].screenX;
+}, { passive: true });
+
+carouselWrapper.addEventListener('touchend', (e) => {
+  touchEndX = e.changedTouches[0].screenX;
+  handleSwipe();
+}, { passive: true });
+
+function handleSwipe() {
+  const swipeThreshold = 50; // Minimum swipe distance in pixels
+  
+  if (touchEndX < touchStartX - swipeThreshold) {
+    // Swiped left - go to next slide
+    moveCarousel(1);
+  }
+  
+  if (touchEndX > touchStartX + swipeThreshold) {
+    // Swiped right - go to previous slide
+    moveCarousel(-1);
+  }
+}
