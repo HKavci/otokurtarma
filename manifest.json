@@ -1,0 +1,23 @@
+{
+  "name": "Nazilli Gürbüz Oto Kurtarma",
+  "short_name": "Nazilli Oto Kurtarma",
+  "description": "7/24 Araç Kurtarma, Çekici ve Yol Yardımı Hizmeti",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#c41c1c",
+  "icons": [
+    {
+      "src": "assets/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
